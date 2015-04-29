@@ -35,3 +35,7 @@ CMS VM configuration.
 
 The number of VMs running concurrently on the physical server. For more information about
 improving performance, click here
+
+| 0:0 | 1:0 |
+| -- | -- |
+| 0:2 | 1:2 |

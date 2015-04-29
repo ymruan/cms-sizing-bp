@@ -10,6 +10,13 @@ For example, in an Enterprise deployment if you are running 134,400 managed node
 
 
 
+| 0:0 | 1:0 |
+| -- | -- |
+| 0:2 | 1:2 |
+
+
+
+
 
 
 
