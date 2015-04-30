@@ -10,9 +10,7 @@ For example, in an Enterprise deployment if you are running 134,400 managed node
 
 
 
-| 0:0 | 1:0 |
-| -- | -- |
-| 0:2 | 1:2 |
+
 
 
 
@@ -35,3 +33,23 @@ For example, in an Enterprise deployment if you are running 134,400 managed node
 [The number of Inventory Discovery nodes] + 7.5 times [the number of application dependency mapping nodes] is less than or equal to 75000.
 
 For example, 15000 inventory discovery nodes and 2000 application dependency mapping nodes, in a Standard deployment, would be supported. The XML Enricher must be configured to match the deployment mode of the probe.
+
+**Probe sizing definition for different deployments**
+
+| Deployment | Scanner-based Inventory | Application Dependecnvy Mapping |
+| -- | -- | -- |
+| Small | Biweekly 7500 nodes| A daily discovery of 5000 nodes |
+| Standard | Biweekly 25000 nodes |A daily discovery of 5000 nodes |
+| Enterprise | Biweekly 75000 nodes | A daily discovery of 10000 nodes  |
+
+**Probe - Hardware recommendation for different deployment**
+
+
+
+
+* Latest generation of Intel/AMD processors recommend.
+* 75% of hard disk space is required for scan file storage
+* Windows Virtual Memory = physical memory * 1.5
+* Linux Swap = physical memory * 1
+
+
