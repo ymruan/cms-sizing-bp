@@ -24,6 +24,7 @@
    * [VM Sizing](cms_sizing/vm_sizing.md)
    * [Intergrations](cms_sizing/intergrations.md)
    * [Performance Benchmark](cms_sizing/performance_benchmark.md)
+   * [Garbage Collector Tuning](cms_sizing/garbage_collector_tuning.md)
 * [CMS EXPERTS](cms_experts/README.md)
    * [Fuse Settings](cms_experts/fuse_settings.md)
    * [Reconciliation](cms_experts/reconciliation.md)
