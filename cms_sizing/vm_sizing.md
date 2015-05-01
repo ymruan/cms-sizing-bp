@@ -22,11 +22,17 @@ Deploy all UCMDB Server HA deployment in the **same virtualization resource pool
 Use the **high performance storage** (such like HP 3PAR) for UCMDB server (If the I/O is not good enough, with some user scenarios, such as SOLR full indexing, it might cause CPU high usage).
 
 For the hardware recommendation, we recommend to use the same number of vCPU and memory as HP recommend for physical deployment. For example, in HP in lab performance, we use 8 vCPU for the test.
+
 **VM Hardware**
 
+| TYPE | CPU| RAM | OS | ROLE IN GROUP |
+| -- | -- | -- | -- | -- |
+| VM | 2*4 2.93 GHz |32 GB |  Windows 2008 R2 Enterprise 64Bit SP1 | UCMDB Server |
 
 
-* Latest generation of Intel/AMD processors recommend.
+
+
+* Latest generation of Intel/AMD processors are recommended.
 * Free hard disk space should more than 30G (for logs, memory dumps and so on)
 * If the search functionality was enabled, it should use more hard disk space ( for example, 7M CIs
 need 30G space for SOLR index files)
