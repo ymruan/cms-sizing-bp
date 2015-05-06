@@ -9,16 +9,7 @@ For example, in an Enterprise deployment if you are running 134,400 managed node
 **Note:** The number used in managed nodes is only CIs and not relationships.
 
 
-
-
-
-
-
-
-
-
-
-### uCMDB Probe Server Sizing - Introduction
+## uCMDB Server Sizing - Introduction
 
 **Small deployment**: A Small deployment supports a biweekly scanner-based inventory of 7500 nodes or a daily discovery of 5000 nodes for application dependency mapping. Other combinations of scanner based inventory nodes and application dependency mapping discovery nodes are also supported, according to the following formula:
 
@@ -34,7 +25,20 @@ For example, in an Enterprise deployment if you are running 134,400 managed node
 
 For example, 15000 inventory discovery nodes and 2000 application dependency mapping nodes, in a Standard deployment, would be supported. The XML Enricher must be configured to match the deployment mode of the probe.
 
-**Probe sizing definition for different deployments**
+**uCMDB Server - Hardware recommendation for different deployment**
+
+| Deployment | CPU | Memory | Diskspace|
+| -- | -- | -- | -- |
+| Small | 4 Cores | 8 GB | 10 GB |
+| Standard | 8 Cores | 16 GB | 20 GB |
+| Enterprise | 24 Cores | 32 GB | 100 GB |
+* Latest generation of Intel/AMD processors recommend.
+* 75% of hard disk space is required for scan file storage
+* Windows Virtual Memory = physical memory * 1.5
+* Linux Swap = physical memory * 1
+
+## Probe sizing definition for different deployments
+
 
 | Deployment | Scanner-based Inventory | Application Dependecnvy Mapping |
 | -- | -- | -- |
@@ -44,8 +48,11 @@ For example, 15000 inventory discovery nodes and 2000 application dependency map
 
 **Probe - Hardware recommendation for different deployment**
 
-
-
+| Deployment | CPU | Memory | Diskspace|
+| -- | -- | -- | -- |
+| Small | 1:2 | 2:2 | 3:2 |
+| Standard | 1:3 | 2:3 | 3:3 |
+| Enterprise | 1:4 | 2:4 | 3:4 |
 
 * Latest generation of Intel/AMD processors recommend.
 * 75% of hard disk space is required for scan file storage
