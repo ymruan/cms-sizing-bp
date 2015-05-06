@@ -5,7 +5,11 @@ CMS can be deployed in both physical and virtualized environments. The following
 The following table lists the number of node-related CIs you can discover for each managed node in your environment. This number depends on the size of your deployment and the number of managed nodes (the more managed nodes you maintain in the CMDB, the fewer node-related CIs you can discover for each managed node).
 
 * VMWare ESX, VMWare ESXi
+ - 4.0, 4.1
+ - 5.0, 5.0 update 1
 * Microsoft Hype-V
+ - 2008 R2 SP1
+ - 2012
 
 If virtual servers are being used for a production CMS system, HP recommends:
 
@@ -38,7 +42,6 @@ For the hardware recommendation, we recommend to use the same number of vCPU and
 need 30G space for SOLR index files)
 * Windows Virtual Memory = physical memory * 1.5
 * Linux Swap = physical memory * 1
-*
 
 ## Hardware Performance Issue
 
