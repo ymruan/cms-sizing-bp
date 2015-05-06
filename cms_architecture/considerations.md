@@ -14,7 +14,6 @@ allow same IP segments across datacenters.
 
 **Network Latency:** Discovery is network driven. Understanding latency across network segments will help to plan the probe location.
 
-yxiao811@yahoo.cn
 
 
 
