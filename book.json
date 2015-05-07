@@ -6,7 +6,7 @@
             "token": "UA-XXXX-Y"
         },
         "disqus": {
-            "shortName": "CMS_Reader"
+            "shortName": "cms_bp"
         }
 
     }
