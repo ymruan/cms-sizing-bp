@@ -26,3 +26,7 @@ This service allows adding CIs and relationships to the UCMDB. When using this A
 * The service supports bulk operations and you should add as many CIs and re- lationships as possible in each bulk, up to 20K CIs and relationships.
 * The service is single threaded, so it won’t help to send many bulks in parallel. **It is recommended to send 2-3 bulks in parallel** – this will allow all processing to be performed in parallel.
 * It is possible to update/remove a CI from the CMDB with only its ID (with no other identification data). Note: You should not create a CI with a real ID.
+
+
+
+![](../images/sizing/UCMDB-Throughput.jpg)
