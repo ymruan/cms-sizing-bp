@@ -27,6 +27,7 @@
    * [Garbage Collector Tuning](cms_sizing/garbage_collector_tuning.md)
    * [Data-in Max Throughput](cms_sizing/data-in_max_throughput.md)
    * [UCMDB Database Recommendation](cms_sizing/ucmdb_database_recommendation.md)
+   * [UCMDB Database Max Capacity](cms_sizing/ucmdb_database_max_capacity)
 * [CMS EXPERTS](cms_experts/README.md)
    * [Fuse Settings](cms_experts/fuse_settings.md)
    * [Reconciliation](cms_experts/reconciliation.md)
