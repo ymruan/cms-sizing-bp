@@ -27,11 +27,11 @@ For example, 15000 inventory discovery nodes and 2000 application dependency map
 
 **uCMDB Server - Hardware recommendation for different deployment**
 
-| Deployment | CPU | Memory | Diskspace|
+| Deployment | CPU (Minimum/Recommend) | Memory  (Minimum/Recommend)| Diskspace|
 | -- | -- | -- | -- |
-| Small | 4 Cores | 8 GB | 10 GB |
-| Standard | 8 Cores | 16 GB | 20 GB |
-| Enterprise | 24 Cores | 32 GB | 100 GB |
+| Small | 1 Core / 4 Cores | 4 GB / 8 GB | 30 GB |
+| Standard | 4 Cores / 8 Cores | 8 GB / 16 GB | 50 GB |
+| Enterprise | 8 Cores / 24 Cores | 16 GB / 32 GB | 100 GB |
 * Latest generation of Intel/AMD processors recommend.
 * 75% of hard disk space is required for scan file storage
 * Windows Virtual Memory = physical memory * 1.5
@@ -48,11 +48,11 @@ For example, 15000 inventory discovery nodes and 2000 application dependency map
 
 **Probe - Hardware recommendation for different deployment**
 
-| Deployment | CPU | Memory | Diskspace|
+| Deployment | CPU (Minimum/Recommend) | Memory for Windows (Minimum/Recommend) | Memory for Linux (Minimum/Recommend) | Diskspace|
 | -- | -- | -- | -- |
-| Small | 1:2 | 2:2 | 3:2 |
-| Standard | 1:3 | 2:3 | 3:3 |
-| Enterprise | 1:4 | 2:4 | 3:4 |
+| Small | 4 Cores / 8 Cores | 4 GB / 8 GB | 4 GB / 8 GB| 100 GB |
+| Standard | 4 Cores / 8 Cores | 8 GB / 16 GB | 4 GB / 8 GB | 100 GB |
+| Enterprise | 8 Cores / 24 Cores | 12 GB / 24 GB | 8 GB / 16 GB | 300 GB |
 
 * Latest generation of Intel/AMD processors recommend.
 * 75% of hard disk space is required for scan file storage
