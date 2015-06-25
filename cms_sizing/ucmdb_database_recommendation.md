@@ -10,23 +10,10 @@
 * Upgrade the current Oracle from Oracle 11 to Oracle 12, MS SQL 2012 to 2014 can improve the performance
 *
 
-## Hardware recommendation for Oracle
-| Deployment | Number of Processor |  Memory |
+## Hardware recommendation for Database
+| Deployment | Number of Processor (Minimum/Recommend) |  Memory  (Minimum/Recommend)|
 | -- | -- | -- |
-| Small| Small <br />Recommended| Small <br />Recommended|
-| Large | Small <br />Recommended | Small <br />Recommended |
-
-
-
-
-## Hardware recommenation for MSSQL
-
-| Deployment | Number of Processor |  Memory |
-| -- | -- | -- |
-| Small | Small <br />Recommended | Small <br />Recommended |
-| Large | Small <br />Recommended | Small <br />Recommended |
-
-
+| Enterprise | 24 Cores| 64 GB |
 
 
 
