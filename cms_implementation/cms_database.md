@@ -14,7 +14,6 @@ If you have oracle installed on unix machine which has OV Performance Agent, the
 
 ![](../images/cms_implementation/ud_db.png)
 
-## Database Infrastructure Min (10.2)
-put the database hardware recommnendation here
+
 
 
