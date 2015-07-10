@@ -36,7 +36,5 @@ G1 is planned as the long term replacement for the Concurrent Mark-Sweep Collect
 
 
 
-### How to setup G1 gc and G1 gc tuning
-Start from UCMDB 10.21. UCMDB Server use the G1 as the OOTB GC. If you want to configure the UCMDB to use the G1 GC, here is the configuration for you reference.
 
 
