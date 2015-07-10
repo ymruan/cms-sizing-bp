@@ -1,6 +1,6 @@
 # UCMDB Max Capacity and Performance Recommendation for Database
 
-CMS Implementation - Database
+
 Database responsiveness is critical for the CMS application. CMS is a typical OLTP application where it demand good read/write from responsive DB. It is good practice for the Database admin to identify workloads and plan the DB online maintenance scripts.
 
 Lets assume a scenario where a db insert query is slow and you would like to understand the DB bottleneck. First identify if it is an infrastructure issue ( CPU/MEM bottleneck, IO bottleneck ..). If not you need to look for DB performance bottle neck items like...

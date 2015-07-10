@@ -22,6 +22,8 @@ wrapper.java.maxmemory=24096
 
 
 ### The G1 Garbage Collector
+Start from UCMDB 10.21. UCMDB Server use G1 as the OOTB Garbage Collector. In oder to gain the better performance, we recommend to upgrade the UCMDB to 10.21.
+
 The Garbage-First (G1) collector is a server-style garbage collector, targeted for multi-processor machines with large memories. It meets garbage collection (GC) pause time goals with a high probability, while achieving high throughput. The G1 garbage collector is fully supported in Oracle JDK 7 update 4 and later releases. The G1 collector is designed for applications that:
 
 * Can operate concurrently with applications threads like the CMS collector.
@@ -36,12 +38,5 @@ G1 is planned as the long term replacement for the Concurrent Mark-Sweep Collect
 
 ### How to setup G1 gc and G1 gc tuning
 Start from UCMDB 10.21. UCMDB Server use the G1 as the OOTB GC. If you want to configure the UCMDB to use the G1 GC, here is the configuration for you reference.
-
-
-
-
-### Java in Virtual Machines on VMware Best Practices
-Large Memory Pages
-
 
 
